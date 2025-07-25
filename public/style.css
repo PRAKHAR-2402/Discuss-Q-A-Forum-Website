@@ -1,0 +1,30 @@
+a {
+  color: black !important;
+}
+.heading {
+  text-align: center;
+}
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+.question-list a {
+  text-decoration: none;
+}
+.answer-wrapper {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.my-questions{
+    display: flex;
+    justify-content: space-between;
+}
